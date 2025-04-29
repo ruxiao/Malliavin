@@ -1,0 +1,12 @@
+model:
+  blocks: 6
+  dim: 64
+  num_cls: 100
+optim:
+  name: adamw
+  lr: 3e-4
+  weight_decay: 5e-4
+train:
+  batch_size: 128
+  epochs: 200
+  amp: true
