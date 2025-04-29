@@ -1,0 +1,10 @@
+[project]
+name = "mallgssn"
+version = "0.1.0"
+dependencies = [
+  "torch>=2.1",
+  "torchvision>=0.16",
+  "omegaconf",
+]
+[tool.setuptools.packages.find]
+where = ["src"]
